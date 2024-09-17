@@ -1,0 +1,88 @@
+
+:root {
+    --azul: #0033cc; 
+    --azul-claro: #66ccff; 
+    --preto: #000000;
+    --branco: #ffffff;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--branco);
+    color: var(--preto);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: var(--azul);
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color: var(--preto);
+}
+
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid var(--azul-claro);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: var(--azul);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 51, 204, 0.5); 
+}
+
+
+button {
+    background-color: var(--azul);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    background-color: var(--azul-claro);
+}
+
+
+#cartItems {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid var(--azul-claro);
+    border-radius: 5px;
+    background-color: var(--azul-claro);
+    color: var(--preto);
+}
+
+x
+h2 {
+    color: var(--azul);
+    margin-top: 20px;
+    font-size: 1.5em;
+}
